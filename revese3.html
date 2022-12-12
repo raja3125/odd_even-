@@ -1,0 +1,31 @@
+<!Doctype html>
+<html>
+<head>
+</head>
+<body>
+<script>
+
+	
+	  
+	  var num = 3247;
+      var reverse = 0;
+      var sum=0;
+	  var sum2 =0;
+	  
+		  while(num != 0){
+			  var lastDigit = num % 10;
+			  reverse += lastDigit;
+			  num = parseInt(num/10);
+			  if(lastDigit%2 ==0){
+			  sum=sum+lastDigit;
+			  }
+			  else{
+			  sum2=sum2+lastDigit;
+			  }
+		  }
+	  console.log(sum)
+	  console.log(sum2)
+      
+</script>
+</body>
+</html>
